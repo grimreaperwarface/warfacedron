@@ -27,11 +27,9 @@
 #include <wb_threads.h>
 #include <wb_lang.h>
 #include <wb_tools.h>
-#include <locale.h>
 
 int main(int argc, char *argv[])
 {
-    setlocale(LC_ALL, "ru_RU.UTF-8");
     const char *exe_path = argv[0];
 
     cvar_init();
