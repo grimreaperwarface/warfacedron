@@ -27,6 +27,7 @@
 #include <wb_threads.h>
 #include <wb_lang.h>
 #include <wb_tools.h>
+#include <locale.h>
 
 int main(int argc, char *argv[])
 {
