@@ -27,12 +27,11 @@
 #include <wb_threads.h>
 #include <wb_lang.h>
 #include <wb_tools.h>
-
-#include <clocale>
+#include <locale.h>
 
 int main(int argc, char *argv[])
 {
-    setlocale(LC_CTYPE, "");;
+    setlocale(LC_CTYPE, "");
     const char *exe_path = argv[0];
 
     cvar_init();
