@@ -27,11 +27,12 @@
 #include <wb_threads.h>
 #include <wb_lang.h>
 #include <wb_tools.h>
-#include <locale.h>
+#include <iostream>
+#include <clocale>
 
 int main(int argc, char *argv[])
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_CTYPE, "");;
     const char *exe_path = argv[0];
 
     cvar_init();
