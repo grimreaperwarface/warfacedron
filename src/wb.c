@@ -30,6 +30,7 @@
 
 int main(int argc, char *argv[])
 {
+    setlocale(LC_ALL, "Russian");
     const char *exe_path = argv[0];
 
     cvar_init();
