@@ -67,4 +67,4 @@ deploy:
   on:
     condition: $OSTYPE = mingw
     tags: true
-    repo: grimreaperwarface/warfacebot
+    repo: grimreaperwarface/warfacedron
