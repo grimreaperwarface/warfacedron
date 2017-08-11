@@ -31,7 +31,7 @@
 
 int main(int argc, char *argv[])
 {
-    setlocale(LC_CTYPE, "");
+    setlocale(LC_ALL, "ru_RU.UTF-8");
     const char *exe_path = argv[0];
 
     cvar_init();
