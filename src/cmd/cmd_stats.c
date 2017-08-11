@@ -78,7 +78,7 @@ void cmd_stats_console_cb(const char *resource, int online, void *args)
     }
     else
     {
-        xprintf("%s: [%i]",
+        xprintf("%s: \033[1;31m%i\033[0m",
                 LANG(console_stats_total),
                 *p_stats_online_total);
 
